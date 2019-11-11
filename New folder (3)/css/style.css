@@ -1,0 +1,38 @@
+#modal {
+  width: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+  background: white;
+  z-index: 5;
+  padding: 20px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#modal .md-header i {
+  color: white;
+  padding: 5px;
+  background: maroon;
+  border-radius: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+#modal .md-body {
+  min-height: 150px;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#modal .md-body .md-empty {
+  text-align: center;
+  padding-top: 25px;
+}
+
+#modal .md-body .md-empty i {
+  color: goldenrod;
+}
+/*# sourceMappingURL=style.css.map */
